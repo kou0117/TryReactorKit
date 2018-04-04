@@ -1,0 +1,22 @@
+## Build generated
+build/
+DerivedData/
+
+
+Pods
+*.xcworkspace
+UserInterfaceState.xcuserstate
+.DS_Store
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.xcworkspace
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+build/
+.svn/
+*.swp
+*.nib
+Thumbs.db
+*.[oa]
+*~
+*.bak
