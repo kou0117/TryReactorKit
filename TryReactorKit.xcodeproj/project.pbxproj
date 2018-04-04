@@ -7,73 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC32FA1A20748A2D0043FF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32FA1920748A2D0043FF2A /* AppDelegate.swift */; };
-		DC32FA1C20748A2D0043FF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32FA1B20748A2D0043FF2A /* ViewController.swift */; };
-		DC32FA1F20748A2D0043FF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC32FA1D20748A2D0043FF2A /* Main.storyboard */; };
-		DC32FA2120748A2D0043FF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC32FA2020748A2D0043FF2A /* Assets.xcassets */; };
-		DC32FA2420748A2D0043FF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC32FA2220748A2D0043FF2A /* LaunchScreen.storyboard */; };
+		DC32FA3820748B030043FF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32FA3720748B030043FF2A /* AppDelegate.swift */; };
+		DC32FA3A20748B030043FF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32FA3920748B030043FF2A /* ViewController.swift */; };
+		DC32FA3D20748B030043FF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC32FA3B20748B030043FF2A /* Main.storyboard */; };
+		DC32FA3F20748B030043FF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC32FA3E20748B030043FF2A /* Assets.xcassets */; };
+		DC32FA4220748B030043FF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC32FA4020748B030043FF2A /* LaunchScreen.storyboard */; };
+		DC32FA54207499C40043FF2A /* ViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32FA53207499C40043FF2A /* ViewReactor.swift */; };
+		F7E120614125F99BCEFA4FA6 /* Pods_TryReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDDDF813ABB15668A6803E2 /* Pods_TryReactorKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC32FA1620748A2D0043FF2A /* TryReactorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryReactorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC32FA1920748A2D0043FF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC32FA1B20748A2D0043FF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC32FA1E20748A2D0043FF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC32FA2020748A2D0043FF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC32FA2320748A2D0043FF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC32FA2520748A2D0043FF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20552A902FAFFE78513016D7 /* Pods-TryReactorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryReactorKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryReactorKit/Pods-TryReactorKit.release.xcconfig"; sourceTree = "<group>"; };
+		28F8EC7C73C2201C7E4388C2 /* Pods-TryReactorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryReactorKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryReactorKit/Pods-TryReactorKit.debug.xcconfig"; sourceTree = "<group>"; };
+		3EDDDF813ABB15668A6803E2 /* Pods_TryReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32FA3420748B030043FF2A /* TryReactorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryReactorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32FA3720748B030043FF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC32FA3920748B030043FF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC32FA3C20748B030043FF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC32FA3E20748B030043FF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC32FA4120748B030043FF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC32FA4320748B030043FF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC32FA4A20748F530043FF2A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		DC32FA4B20748F530043FF2A /* ReactorKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactorKit.framework; path = Carthage/Build/iOS/ReactorKit.framework; sourceTree = "<group>"; };
+		DC32FA4C20748F530043FF2A /* ReactorKitRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactorKitRuntime.framework; path = Carthage/Build/iOS/ReactorKitRuntime.framework; sourceTree = "<group>"; };
+		DC32FA4D20748F530043FF2A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		DC32FA53207499C40043FF2A /* ViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReactor.swift; sourceTree = "<group>"; };
+		DC32FA5520749BC60043FF2A /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		DC32FA5720749BD90043FF2A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC32FA1320748A2D0043FF2A /* Frameworks */ = {
+		DC32FA3120748B030043FF2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E120614125F99BCEFA4FA6 /* Pods_TryReactorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC32FA0D20748A2D0043FF2A = {
+		999F9FDEA196A639EEDE1E75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC32FA1820748A2D0043FF2A /* TryReactorKit */,
-				DC32FA1720748A2D0043FF2A /* Products */,
+				28F8EC7C73C2201C7E4388C2 /* Pods-TryReactorKit.debug.xcconfig */,
+				20552A902FAFFE78513016D7 /* Pods-TryReactorKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC32FA2B20748B030043FF2A = {
+			isa = PBXGroup;
+			children = (
+				DC32FA3620748B030043FF2A /* TryReactorKit */,
+				DC32FA3520748B030043FF2A /* Products */,
+				DC32FA4920748F520043FF2A /* Frameworks */,
+				999F9FDEA196A639EEDE1E75 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		DC32FA1720748A2D0043FF2A /* Products */ = {
+		DC32FA3520748B030043FF2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC32FA1620748A2D0043FF2A /* TryReactorKit.app */,
+				DC32FA3420748B030043FF2A /* TryReactorKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC32FA1820748A2D0043FF2A /* TryReactorKit */ = {
+		DC32FA3620748B030043FF2A /* TryReactorKit */ = {
 			isa = PBXGroup;
 			children = (
-				DC32FA1920748A2D0043FF2A /* AppDelegate.swift */,
-				DC32FA1B20748A2D0043FF2A /* ViewController.swift */,
-				DC32FA1D20748A2D0043FF2A /* Main.storyboard */,
-				DC32FA2020748A2D0043FF2A /* Assets.xcassets */,
-				DC32FA2220748A2D0043FF2A /* LaunchScreen.storyboard */,
-				DC32FA2520748A2D0043FF2A /* Info.plist */,
+				DC32FA3720748B030043FF2A /* AppDelegate.swift */,
+				DC32FA3920748B030043FF2A /* ViewController.swift */,
+				DC32FA53207499C40043FF2A /* ViewReactor.swift */,
+				DC32FA3B20748B030043FF2A /* Main.storyboard */,
+				DC32FA3E20748B030043FF2A /* Assets.xcassets */,
+				DC32FA4020748B030043FF2A /* LaunchScreen.storyboard */,
+				DC32FA4320748B030043FF2A /* Info.plist */,
 			);
 			path = TryReactorKit;
+			sourceTree = "<group>";
+		};
+		DC32FA4920748F520043FF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC32FA5720749BD90043FF2A /* RxBlocking.framework */,
+				DC32FA5520749BC60043FF2A /* RxTest.framework */,
+				DC32FA4B20748F530043FF2A /* ReactorKit.framework */,
+				DC32FA4C20748F530043FF2A /* ReactorKitRuntime.framework */,
+				DC32FA4A20748F530043FF2A /* RxCocoa.framework */,
+				DC32FA4D20748F530043FF2A /* RxSwift.framework */,
+				3EDDDF813ABB15668A6803E2 /* Pods_TryReactorKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC32FA1520748A2D0043FF2A /* TryReactorKit */ = {
+		DC32FA3320748B030043FF2A /* TryReactorKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC32FA2820748A2D0043FF2A /* Build configuration list for PBXNativeTarget "TryReactorKit" */;
+			buildConfigurationList = DC32FA4620748B030043FF2A /* Build configuration list for PBXNativeTarget "TryReactorKit" */;
 			buildPhases = (
-				DC32FA1220748A2D0043FF2A /* Sources */,
-				DC32FA1320748A2D0043FF2A /* Frameworks */,
-				DC32FA1420748A2D0043FF2A /* Resources */,
+				69BACA96789E371EDBF688CF /* [CP] Check Pods Manifest.lock */,
+				DC32FA3020748B030043FF2A /* Sources */,
+				DC32FA3120748B030043FF2A /* Frameworks */,
+				DC32FA3220748B030043FF2A /* Resources */,
+				DC32FA5220748F5A0043FF2A /* ShellScript */,
+				4A2DF6D78B3F7BD413774AE8 /* [CP] Embed Pods Frameworks */,
+				FB065D180C977789ED322AD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +124,26 @@
 			);
 			name = TryReactorKit;
 			productName = TryReactorKit;
-			productReference = DC32FA1620748A2D0043FF2A /* TryReactorKit.app */;
+			productReference = DC32FA3420748B030043FF2A /* TryReactorKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC32FA0E20748A2D0043FF2A /* Project object */ = {
+		DC32FA2C20748B030043FF2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = accenturePC;
 				TargetAttributes = {
-					DC32FA1520748A2D0043FF2A = {
+					DC32FA3320748B030043FF2A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DC32FA1120748A2D0043FF2A /* Build configuration list for PBXProject "TryReactorKit" */;
+			buildConfigurationList = DC32FA2F20748B030043FF2A /* Build configuration list for PBXProject "TryReactorKit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +151,126 @@
 				en,
 				Base,
 			);
-			mainGroup = DC32FA0D20748A2D0043FF2A;
-			productRefGroup = DC32FA1720748A2D0043FF2A /* Products */;
+			mainGroup = DC32FA2B20748B030043FF2A;
+			productRefGroup = DC32FA3520748B030043FF2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC32FA1520748A2D0043FF2A /* TryReactorKit */,
+				DC32FA3320748B030043FF2A /* TryReactorKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC32FA1420748A2D0043FF2A /* Resources */ = {
+		DC32FA3220748B030043FF2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC32FA2420748A2D0043FF2A /* LaunchScreen.storyboard in Resources */,
-				DC32FA2120748A2D0043FF2A /* Assets.xcassets in Resources */,
-				DC32FA1F20748A2D0043FF2A /* Main.storyboard in Resources */,
+				DC32FA4220748B030043FF2A /* LaunchScreen.storyboard in Resources */,
+				DC32FA3F20748B030043FF2A /* Assets.xcassets in Resources */,
+				DC32FA3D20748B030043FF2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A2DF6D78B3F7BD413774AE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TryReactorKit/Pods-TryReactorKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryReactorKit/Pods-TryReactorKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69BACA96789E371EDBF688CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryReactorKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC32FA5220748F5A0043FF2A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		FB065D180C977789ED322AD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryReactorKit/Pods-TryReactorKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DC32FA1220748A2D0043FF2A /* Sources */ = {
+		DC32FA3020748B030043FF2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC32FA1C20748A2D0043FF2A /* ViewController.swift in Sources */,
-				DC32FA1A20748A2D0043FF2A /* AppDelegate.swift in Sources */,
+				DC32FA3A20748B030043FF2A /* ViewController.swift in Sources */,
+				DC32FA54207499C40043FF2A /* ViewReactor.swift in Sources */,
+				DC32FA3820748B030043FF2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC32FA1D20748A2D0043FF2A /* Main.storyboard */ = {
+		DC32FA3B20748B030043FF2A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC32FA1E20748A2D0043FF2A /* Base */,
+				DC32FA3C20748B030043FF2A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC32FA2220748A2D0043FF2A /* LaunchScreen.storyboard */ = {
+		DC32FA4020748B030043FF2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC32FA2320748A2D0043FF2A /* Base */,
+				DC32FA4120748B030043FF2A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +278,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC32FA2620748A2D0043FF2A /* Debug */ = {
+		DC32FA4420748B030043FF2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -220,7 +335,7 @@
 			};
 			name = Debug;
 		};
-		DC32FA2720748A2D0043FF2A /* Release */ = {
+		DC32FA4520748B030043FF2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -270,13 +385,19 @@
 			};
 			name = Release;
 		};
-		DC32FA2920748A2D0043FF2A /* Debug */ = {
+		DC32FA4720748B030043FF2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F8EC7C73C2201C7E4388C2 /* Pods-TryReactorKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34NMDMB3A7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TryReactorKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kotaro.harada.TryReactorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,13 +406,19 @@
 			};
 			name = Debug;
 		};
-		DC32FA2A20748A2D0043FF2A /* Release */ = {
+		DC32FA4820748B030043FF2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20552A902FAFFE78513016D7 /* Pods-TryReactorKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34NMDMB3A7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TryReactorKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kotaro.harada.TryReactorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,25 +430,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC32FA1120748A2D0043FF2A /* Build configuration list for PBXProject "TryReactorKit" */ = {
+		DC32FA2F20748B030043FF2A /* Build configuration list for PBXProject "TryReactorKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC32FA2620748A2D0043FF2A /* Debug */,
-				DC32FA2720748A2D0043FF2A /* Release */,
+				DC32FA4420748B030043FF2A /* Debug */,
+				DC32FA4520748B030043FF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC32FA2820748A2D0043FF2A /* Build configuration list for PBXNativeTarget "TryReactorKit" */ = {
+		DC32FA4620748B030043FF2A /* Build configuration list for PBXNativeTarget "TryReactorKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC32FA2920748A2D0043FF2A /* Debug */,
-				DC32FA2A20748A2D0043FF2A /* Release */,
+				DC32FA4720748B030043FF2A /* Debug */,
+				DC32FA4820748B030043FF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC32FA0E20748A2D0043FF2A /* Project object */;
+	rootObject = DC32FA2C20748B030043FF2A /* Project object */;
 }
